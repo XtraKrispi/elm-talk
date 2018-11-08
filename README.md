@@ -1,1 +1,1 @@
-# haskell-types-talk
+# elm-talk

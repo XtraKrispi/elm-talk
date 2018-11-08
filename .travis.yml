@@ -38,7 +38,7 @@ install:
 
 script:
 # Build the package, its tests, and its docs and run the tests
-- stack --no-terminal test --haddock --no-haddock-deps && stack exec -- haskell-types-talk clean && stack exec -- haskell-types-talk build
+- stack --no-terminal test --haddock --no-haddock-deps && stack exec -- haskell-types-talk clean && stack exec -- elm-talk build
 
 branches:
   only:
